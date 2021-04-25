@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pipocas&amp;Pelis</string>
+    <string name="Buscar">Buscar</string>
+    <string name="mensaje_no_encontrado">no se encontraron resultado</string>
+    <string name="buscando">Buscando</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favoritos">favoritos</string>
+    <string name="titulo_apps"><![CDATA[PIPOCAS & PELIS]]></string>
+    <string name="mensaje_desea_salir">Esta seguro que desea salir?</string>
+</resources>

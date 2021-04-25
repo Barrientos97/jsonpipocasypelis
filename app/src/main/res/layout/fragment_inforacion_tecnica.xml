@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".InforacionTecnicaFragment">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Nombre"
+                android:layout_weight="3"/>
+            <TextView
+                android:id="@+id/titulo_informacion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Titulo de la pelicula"
+                android:layout_weight="7"/>
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Runtime"
+                android:layout_weight="3"/>
+            <TextView
+                android:id="@+id/Runtime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="A,B,C"
+                android:layout_weight="7"/>
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Genero"
+                android:layout_weight="3"/>
+            <TextView
+                android:id="@+id/Genero"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="titulo de genero"
+                android:layout_weight="7"/>
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Premier"
+                android:layout_weight="3"/>
+            <TextView
+                android:id="@+id/Premier"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="20/20/05"
+                android:layout_weight="7"/>
+        </TableRow>
+    </TableLayout>
+
+
+
+</FrameLayout>
